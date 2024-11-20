@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pdf-dedup"
+version = "0.1.0"
+description = ""
+authors = ["Arnav Komaragiri <komaraac@mail.uc.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pypdf = "^5.1.0"
+typer = "^0.13.1"
+tqdm = "^4.67.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,3 @@
+*.lock
+*.pdf
+*__pycache__
