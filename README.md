@@ -15,7 +15,11 @@ pip install -r requirements.txt
 ### Running Deduplication
 The template to use this script is as such:
 ```bash
-python pdf_dedup/dedup.py [INSERT SOURCE FILE/DIR] [INSERT OUTPUT UNIQUE FILE DIR] [--remove-whitespace if removing whitespaces before comparing] [--verbose if you want cool logs]
+python pdf_dedup/dedup.py \
+    [INSERT SOURCE FILE/DIR] \
+    [INSERT OUTPUT UNIQUE FILE DIR] 
+    [--remove-whitespace if removing whitespaces before comparing] \
+    [--verbose if you want cool logs]
 ```
 An example usage could be:
 ```bash
